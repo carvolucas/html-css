@@ -5,31 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Morphism</title>
     <style>
-        body {
-            background-color: #f9f9f9;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            margin: 300px;
-            
+
+        div.item{
+            display: flex;
+            justify-content: center;
+            margin: 200px;
         }
 
-        h2 {
-            text-align: center;
-            margin: 10px;
-        }
-
-        .element {
+        div.quadrado {
+            display: flex;
             box-sizing: content-box;
+            align-items: center;
+            justify-content: center;
+            background-color: #f9f9f9;
             height: 200px;
             width: 300px;
-
         }
 
-        .element:hover {
+        .quadrado:hover {
             box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1), -10px -10px 10px white;
+            transition-duration: 0.3s;
         }
+
     </style>
 </head>
 <body>
-    <h2 class="element">Hover Me</h2>
+    <div class="item">
+        <div class="quadrado">
+            <h1>hover me</h1>
+        </div>
+    </div>
 </body>
 </html>
