@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+}
+
+header > h1 {
+    font-family: "Cinzel", serif;;
+    color: white;
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+    box-sizing: content-box;
+}
+
+header > h3 {
+    color: white;
+    margin-bottom: -12px;
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+menu {
+    display: block;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-top: 2px solid rgb(54, 54, 54);
+}
+
+menu a:hover {
+    background-color: #B32C54;
+    transition: 0.5s;
+
+}
+
+main {
+    width: 90vw;
+    background-color: rgb(54, 54, 54);
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article > h2 {
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 1.8em;
+}
+
+article > h3 {
+    font-size: 1.3em;
+    color: white;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+article > p {
+    color: white;
+    text-align: justify;
+    margin-bottom: 20px;
+    /* text-indent: 20px; */
+    font-size: 14px;
+}
